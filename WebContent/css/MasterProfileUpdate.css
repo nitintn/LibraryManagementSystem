@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#masterProfileUpdate_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#masterProfileUpdate_form legend {
+ font-weight:bold;
+}
+ 
+#masterProfileUpdate_form label {
+ display:block;
+}
+ 
+#masterProfileUpdate_form label span {
+ color:#f00;
+}
+ 
+#masterProfileUpdate_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+ color:#red;
+}

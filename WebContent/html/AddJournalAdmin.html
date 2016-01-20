@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	
+
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+	
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+	
+<link rel='stylesheet' type='text/css' href='../css/styles.css' />
+	
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	
+<script type='text/javascript' src='../js/menu_jquery.js'></script>
+
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+
+<link rel="stylesheet" href="../css/signin.css"></link>
+
+<link rel="shortcut icon" href="http://designshack.net/favicon.ico"/>
+
+<link rel="icon" href="http://designshack.net/favicon.ico"/>
+
+<link rel="stylesheet" href="../css/css.css"/>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/js.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+$('.active-links').click(function () {
+        if ($('#signin-dropdown').is(":visible")) {
+            $('#signin-dropdown').hide(1000);
+			$('#session').removeClass('active');
+        } else {
+            $('#signin-dropdown').show(1000);
+
+			$('#session').addClass('active');
+        }
+		return false;
+    });
+		$('#signin-dropdown').click(function(e) {
+        e.stopPropagation();
+    });
+    $(document).click(function() {
+        $('#signin-dropdown').hide();
+		$('#session').removeClass('active');
+    });
+});
+</script>
+
+<SCRIPT type="text/javascript">     
+window.history.forward();     
+function noBack() { window.history.forward(); } 
+</SCRIPT>
+
+<title>Add Journal</title>
+
+<link rel="stylesheet" type="text/css" href="../css/AddJournal.css"/>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.8/jquery.validate.min.js"></script>
+<script type="text/javascript" src="../js/AddJournal.js"></script>
+
+</head>
+
+
+
+<body  onload="noBack();"     onpageshow="if (event.persisted) noBack();" onunload="">
+
+	<div id="top-stuff">
+	
+		<div id="top-bar-out">
+    	
+			<div id="container">
+    	
+				<div id="topnav">
+        
+					<div id="session">
+            
+							<a id="signin-link" href="../Guest1?page=SignOut"><strong>Sign Out</strong></a>
+            
+					</div>
+               	
+				</div>
+    	
+			</div>
+    
+		</div>	
+
+	</div>
+
+	
+
+	<div id="header" name="headerOne" style="width: 25%; height:140px; background-image: url(../images/header.jpg); color: white; line-height: 100px;float: left">
+	</div>
+
+	<div id="header" name="headerTwo" style="width: 55%; height:140px; background-image: url(../images/wood.jpg); color: white; line-height: 100px;float: left">
+	<center><b>Library Management System</b></center>
+	</div>
+
+	<div id="header" name="headerThree" style="width: 20%; height:140px; background-image: url(../images/wood.jpg); color: white; line-height: 100px;float: left">
+	</div>
+
+	
+<div id='cssmenu' style="width: 20%; float:left; height:950px; background-image: url(../images/wood.jpg)">
+	
+<ul>
+   
+		<li><a href='AddBookAdmin.jsp'><span>Home</span></a></li>
+   
+		<li class='has-sub active'><a href='#'><span>Add Item</span></a>
+      
+		<ul>
+         
+			<li><a href='AddBookAdmin.html'><span>Book</span></a></li>
+         
+			<li><a href='AddCdAdmin.html'><span>Cd</span></a></li>
+         
+			<li><a href='AddMagazineAdmin.html'><span>Magazine</span></a></li>
+         
+			<li class='last'><a href='AddJournalAdmin.html'><span>Journal</span></a></li>
+      
+		</ul>
+		</li>
+   
+		<li><a href='Search.jsp'><span>Search Item</span></a></li>
+   
+   		<li><a href='Delete.jsp'><span>Delete Item</span></a></li>
+   
+		<li class='has-sub'><a href='#'><span>Master Profile</span></a>
+      
+		<ul>
+         
+			<li><a href='AddMasterProfile.html'><span>Add Master Profile</span></a></li>
+         
+			<li class='last'><a href='../AdminServlet1?Page=MasterProfileUpdate&isFirst=first'><span>Update Master Profile</span></a></li>
+      
+		</ul>
+		</li>
+		
+		<li class='has-sub'><a href='#'><span>Issue Item</span></a>     
+		<ul>        
+			<li><a href='issueItem.html'><span>Issue</span></a></li>  
+			<li><a href='issueItemByPayment.html'><span>Issue by Payment</span></a></li>        
+			<li class='last'><a href='issueItemReservedInAdvance1.html'>Issue Advance Reserved Item<span></span></a></li>      
+		</ul>
+		</li>
+   
+		<li class='has-sub'><a href='#'><span>Advance Reservation</span></a>     
+		<ul>        
+			<li><a href='LibrarianNeel.html'><span>Make Reservation</span></a></li>  
+			<li><a href='CancelReservationLib.html'><span>Cancel Reservation</span></a></li>        
+			<li class='last'><a href='viewReservationList.html'>View Reservation List<span></span></a></li>      
+		</ul>
+		</li>   
+		
+		<li class='last'><a href='jsp/ReturnItem.jsp'><span>Return Item</span></a></li>
+   		
+		<li class='last'><a href='index.html'><span>Renew Item</span></a></li>
+		
+		<li class='last'><a href='../LostServlet?req=viewAll'><span>View Lost/Stolen Report</span></a></li>
+		
+		<li class='last'><a href='../jsp/viewAdminReview.jsp'><span>View Review</span></a></li>
+		
+		<li class='last'><a href='Searchdefaulterslist.html'><span>View Defaulter List</span></a></li>
+   
+   		<li><a href='../jsp/rackHomeAdd.jsp'><span>Add Item to Rack</span></a></li>   		
+   		
+		<li><a href='../jsp/rackHomeView.jsp'><span>View Rack</span></a></li>
+		
+		<li class='has-sub'><a href='#'><span>News</span></a>
+			<ul>        
+			<li><a href='../jsp/AddNews.jsp'><span>Add News</span></a></li>  
+			<li><a href='../jsp/DeleteNews.jsp'><span>Delete News</span></a></li>    
+			</ul>
+		</li>   	
+   
+		<li  class='active'><a href='#'><span>Staff</span></a>
+      
+		<ul>
+         
+			<li><a href='AddAdmin.html'><span>Add Admin</span></a></li>
+         
+			<li><a href='AddLibrarian.html'><span>Add Librarian</span></a></li>
+         
+			<li class='last'><a href='DeleteUser.jsp'><span>Delete User</span></a></li>
+      
+		</ul></li>
+					
+</ul>
+	
+</div>
+	<div id="content" style="float: left; width:60%; background-color:black; height: 950px;">	
+	<form action="../AdminServlet1" method="post" id="addJournal_form">
+		<fieldset><legend style="color: white;">Add Journal</legend>
+			<p>
+				<label for="Title" style="color: white;">Title : <span>*</span></label>
+				<input type="text" name="Title" size="30" />
+			</p>
+			<p>
+				<label for="JournalId" style="color: white;">Journal ID : (6 digits)<span>*</span></label>
+				<input type="text" name="JournalId" size="30" />
+			</p>
+			<p>
+				<label for="VolumeNo" style="color: white;">Volume No : <span>*</span></label>
+				<input type="text" name="VolumeNo" size="30" />
+			</p>
+			<p>
+				<label for="Isbn" style="color: white;">Isbn : <span>*</span></label>
+				<input type="text" name="Isbn" size="30" />
+			</p>
+			<p>
+				<label for="SubscriptionType" style="color: white;">Subscription Type : <span>*</span></label>
+				<select name="SubscriptionType"><option value="Fortnightly">Fortnightly</option><option value="Weekly">Weekly</option><option value="Monthly">Monthly</option><option value="Quarterly">Quarterly</option></select>
+	  		</p>
+	  		<p>
+	   			<label for="PlaceOfPublication" style="color: white;">Place of Publication : <span>*</span></label>
+	   			<input type="text" name="PlaceOfPublication" size="30" />
+	   		</p>
+	  		<p>
+	   			<label for="PublicationYear" style="color: white;">Year of Publication : <span>*</span></label>
+	   			<input type="text" name="PublicationYear" size="30" />
+	  		</p>
+	  		<p>
+	   			<label for="Cost" style="color: white;">Cost : <span>*</span></label>
+	   			<input type="text" name="Cost" size="30" />
+	  		</p>
+	  		<p>
+	   			<input type="submit" value="Submit" name="submit" />
+	   			<input type="hidden" name="page" value="AddJournalAdmin"></input>
+	  		</p>
+		 </fieldset>
+	</form>
+	</div>
+
+	<div id="login" style="float:left; width: 20%; background-color:black; height: 950px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerOne" style="float:left; width: 20%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerOne" style="float:left; width: 60%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerOne" style="float:left; width: 20%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="loginmodal" style="display:none;">
+    
+	<h1>User Login</h1>
+    
+	<form id="loginform" name="loginform" method="post" action="#">
+      
+		<label for="username">Username:</label>
+      
+		<input type="text" name="username" id="username" class="txtfield" tabindex="1"/>
+      
+      
+		<label for="password">Password:</label>
+      
+		<input type="password" name="password" id="password" class="txtfield" tabindex="2"/>
+      
+      
+		<div class="center"><input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal" value="Log In" tabindex="3"></div>
+    
+	</form>
+
+</div>
+	
+</body>
+
+
+</html>

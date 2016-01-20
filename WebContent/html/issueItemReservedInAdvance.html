@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="./js/issueItemReservedInAdvance.js"></script>
+</head>
+<body oncontextmenu="return false;">
+<form action="issueItemReservedInAdvance" id="issueItemReservedInAdvanceForm">
+<h1>Issue Item Reserved In Advance</h1>
+<table>
+<tbody>
+<tr>
+<td>Member ID<font color="red">*</font></td>
+<td><input type="text" id="memberID" name="memberID"></td>
+<td><font color="red"><p id="memDisplay"></p></font></td>
+</tr>
+
+
+<tr>
+<td>Item<font color="red">*</font></td>
+<td>
+<select id="item" onchange="itemCheck()" name="item_type">
+<option value="select">---Select---</option>
+<option value="book">Book</option>
+<option value="magazine">Magazine</option>
+<option value="cd">CD</option>
+<option value="journal">Journal</option>
+</select>
+</td>
+<td><font color="red"><p id="itm"></p></font></td>
+
+</tr>
+
+
+<tr>
+<td>Item ID<font color="red">*</font></td>
+<td><input type="text" name="itemID" id="itemID"></td>
+<td><font color="red"><p id="itemDisplay"></p></font></td>
+</tr> 
+
+
+<tr>
+<td><input type="button" value="Submit" onclick="validateIssueItemForm()"></td>
+<td><input type="reset" value="Reset"></td>
+<td><input type="hidden" name="page" value="issueItem"></td>
+</tr>
+
+</tbody>
+</table>
+</form><div id="login" style="float:left; width: 20%; background-color:black; height: 574px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="fillerOne" style="float:left; width: 60%; background-color:black; height: 119px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+	
+	<div id="fillerTwo" style="float:left; width: 20%; background-color:black; height: 119px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerOne" style="float:left; width: 20%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerTwo" style="float:left; width: 60%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+	<div id="footerThree" style="float:left; width: 20%; background-color:black; height: 30px; color:white; background-image: url(../images/wood.jpg)">
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#addLibrarian_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#addLibrarian_form legend {
+ font-weight:bold;
+}
+ 
+#addLibrarian_form label {
+ display:block;
+}
+ 
+#addLibrarian_form label span {
+ color:#f00;
+}
+ 
+#addLibrarian_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+ color:#red;
+}

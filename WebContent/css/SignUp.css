@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+#signup_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#signup_form legend {
+ font-weight:bold;
+}
+ 
+#signup_form label {
+ display:block;
+}
+ 
+#signup_form label span {
+ color:#f00;
+}
+ 
+#signup_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+}
+
+#signup_form1 fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#signup_form1 legend {
+ font-weight:bold;
+}
+ 
+#signup_form1 label {
+ display:block;
+}
+ 
+#signup_form1 label span {
+ color:#f00;
+}
+ 
+#signup_form1 .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+}

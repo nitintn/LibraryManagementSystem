@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#addBook_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#addBook_form legend {
+ font-weight:bold;
+}
+ 
+#addBook_form label {
+ display:block;
+}
+ 
+#addBook_form label span {
+ color:#f00;
+}
+ 
+#addBook_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+ color:#red;
+}

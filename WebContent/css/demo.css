@@ -1,0 +1,127 @@
+.menuBtn 
+{ background: center center no-repeat transparent; 
+background: #000; 
+display: block; 
+width: 40px; 
+height: 40px; 
+position: absolute; 
+top: 0; left: 10px; }
+ 
+.section 
+{ 
+
+width: 100%; 
+max-width: 1140px; 
+min-width: 960px; 
+z-index: 10; 
+position: relative; 
+margin: 0 auto; 
+padding: 0 0 20px 0; } 
+
+.inner 
+{ 
+width: 1060px; 
+margin: 0 auto; 
+position: relative; 
+min-height: 50px; 
+padding: 30px 0; 
+font-size: 18px; 
+font-family: 'Open Sans', sans-serif; 
+font-weight: 300; 
+ padding: 30px 0; } 
+
+/* This is the selector i used for my menu, it needs to be set as position:absolute; */
+.subMenu 
+{ 
+position: absolute; 
+left: 102px;
+height: 50px; 
+z-index: 1000; 
+width: 100%; 
+max-width: 1140px; 
+min-width: 960px; 
+background: #6a6b72; } 
+
+.subMenu .inner 
+{ 
+width:100%;
+padding: 0; 
+font-weight: 400; } 
+
+.subNavBtn 
+{ 
+display: block; 
+height: 35px; 
+width: 12%; 
+float: left; 
+margin: 0px 0px 0 0; 
+text-decoration: none; 
+font-size: 14px; 
+padding-top:15px;
+padding-left:26px; 
+padding-right:26px;
+text-align: center; 
+color: #fff; } 
+
+.active
+{
+background:#a5ce27;}
+
+.end 
+{ 
+margin: 0; } 
+
+/* SECTIONS */
+.sTop 
+{ 
+background-image:url("../images/1.jpg");
+min-height: 630px; 
+color:#FBF8F7; } 
+
+.s1 
+{ 
+min-height: 500px; 
+background: #000000; 
+color: white; } 
+
+.s2 
+{ 
+min-height: 500px;
+background: #000000; 
+color: white; } 
+
+.s3 
+{ 
+min-height: 500px; 
+background: #000000; 
+color: white; } 
+
+.s4 
+{ 
+min-height: 500px; 
+background: #000000;  
+color: white; } 
+
+.s5
+{ 
+min-height: 500px; 
+background: white; 
+color: white; }
+
+#home
+{
+font-family: "Verdana,sans-serif";
+
+padding-left:500px;
+}
+
+
+
+
+
+
+
+
+
+
+

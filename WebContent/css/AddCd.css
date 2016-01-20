@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#addCd_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#addCd_form legend {
+ font-weight:bold;
+}
+ 
+#addCd_form label {
+ display:block;
+}
+ 
+#addCd_form label span {
+ color:#f00;
+}
+ 
+#addCd_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+ color:#red;
+}

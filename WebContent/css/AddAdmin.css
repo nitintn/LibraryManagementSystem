@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+#addAdmin_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#addAdmin_form legend {
+ font-weight:bold;
+}
+ 
+#addAdmin_form label {
+ display:block;
+}
+ 
+#addAdmin_form label span {
+ color:#FFFFFF;
+}
+ 
+#addAdmin_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #white;
+ color:white;
+ background-color: black;
+ width: 200px;
+}

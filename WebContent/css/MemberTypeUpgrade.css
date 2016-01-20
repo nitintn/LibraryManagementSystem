@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+#memberTypeUpgrade_form fieldset {
+ padding:1em 1.5em;
+ border:1px solid #bbb;
+}
+ 
+#memberTypeUpgrade_form legend {
+ font-weight:bold;
+}
+ 
+#memberTypeUpgrade_form label {
+ display:block;
+}
+ 
+#memberTypeUpgrade_form label span {
+ color:#f00;
+}
+ 
+#memberTypeUpgrade_form .error {
+ padding:5px;
+ margin:5px 0;
+ border:1px solid #f00;
+ color:#red;
+}

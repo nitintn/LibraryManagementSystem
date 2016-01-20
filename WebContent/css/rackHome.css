@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+label { 	}
+.valid { border: 1px solid green;}
+.error { border: 1px solid red;}
+.validarium-error { color: red; font-weight: bold;}
+div#mydiv{
+background-color:white;
+border:1px solid #aca899 transparent;
+margin:0px;
+padding:1px;
+font-size:11px;
+text-align:center;
+max-height:200px;
+overflow:auto;
+}
+#iIDLabel,#iTitleLabel,#iRackLabel
+{ 
+DISPLAY: none; 
+} 
+#bookListTech,#CDListTech,#MagazineListTech,#JournalListTech,#bookListNonTech,#CDListNonTech,#MagazineListNonTech,#JournalListNonTech
+{ 
+DISPLAY: none; 
+}

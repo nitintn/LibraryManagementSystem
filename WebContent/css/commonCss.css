@@ -1,0 +1,27 @@
+
+table.imagetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:small;
+	color:#ffffff;
+	width:500px;
+	border-width: medium;
+	border-color: #9ACD32;
+	border-style: solid;
+	border-collapse: collapse;
+}
+table.imagetable th {
+	background-color:#9ACD32;
+	color:#000000;
+	border-width: 1px;
+	padding: 8px;
+	
+	border-style: solid;
+	border-color: #9ACD32;
+}
+table.imagetable td {
+	background:#000000;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #9ACD32;
+}
